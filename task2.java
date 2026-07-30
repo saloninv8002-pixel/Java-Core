@@ -379,26 +379,28 @@ class task2{
     System.out.println("---TAX CRITERIA---");
     double annualIncome=1700000;
     System.out.println("Annual income : "+annualIncome);
-    if(annualIncome<=300000){
+    if(annualIncome<=400000){
         System.out.println("No Tax");
         System.out.println(" ");
     }
-    else if (annualIncome<=700000){
+    else if (annualIncome<=800000){
         System.out.println(" 5% Tax "+(annualIncome*0.05));
         System.out.println(" ");
     }
-    else if (annualIncome<=1000000){
+    else if (annualIncome<=1200000){
         System.out.println(" 10% Tax "+(annualIncome*(0.10)));
         System.out.println(" ");
     }
-    else if (annualIncome<=1500000){
+    else if (annualIncome<=1600000){
         System.out.println(" 15% Tax "+(annualIncome*(0.15)));
         System.out.println(" ");
     }
-    else if (annualIncome<=2400000){
+    else if (annualIncome<=2000000){
         System.out.println(" 20% Tax "+(annualIncome*(0.20)));
         System.out.println(" ");
     }
+    else if (annualIncome<=2400000){
+        System.out.println("25% Tax "+(annualIncome*(0.25)));
     else{
         System.out.println(" 30% Tax "+(annualIncome*(0.30)));
         System.out.println(" ");
