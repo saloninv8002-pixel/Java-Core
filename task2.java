@@ -401,6 +401,8 @@ class task2{
     }
     else if (annualIncome<=2400000){
         System.out.println("25% Tax "+(annualIncome*(0.25)));
+        System.out.println(" ");
+    }
     else{
         System.out.println(" 30% Tax "+(annualIncome*(0.30)));
         System.out.println(" ");
