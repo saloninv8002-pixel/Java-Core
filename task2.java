@@ -168,6 +168,48 @@ class task2{
         System.out.println("Consonants");
         System.out.println(" ");
     }
+
+    //Largest of two nums
+    System.out.println("---LARGEST OF 2 NUMBER---");
+    int a1=12,a2=3;
+    System.out.println("A : "+a1);
+    System.out.println("B : "+a2);
+
+    if(a1>a2){
+        System.out.println("A is Biggest : "+a1);
+    }
+    else if (a1<a2){
+        System.out.println("B is Biggest : "+a2);
+    }
+    else{
+        System.out.println("A is Equal to B");
+    }
+    System.out.println(" ");
+
+    //Largest of 4 Numbs
+    System.out.println("---LARGEST OF 4 NUMBER---");
+    int b1=12,b2=3,b3=1,b4=3;
+    System.out.println("A : "+b1);
+    System.out.println("B : "+b2);
+    System.out.println("C : "+b3);
+    System.out.println("D : "+b4);
+
+    if(b1==b2 && b2==b3 && b3==b4){
+        System.out.println("All Values Are Same");
+    }
+    else if (b1>=b2 && b1>=b3 && b1>=b4){
+        System.out.println("The Biggest Value : "+b1);
+    }
+    else if (b2>=b1 && b2>=b3 && b2>=b4){
+        System.out.println("The Biggest Value : "+b2);
+    }
+    else if (b3>=b1 && b3>=b2 && b3>=b4){
+        System.out.println("The Biggest Value : "+b3);
+    }
+    else{
+        System.out.println("The Biggest Value : "+b4);
+    }
+    System.out.println(" ");
     
 
     //Grading System
@@ -194,6 +236,27 @@ class task2{
         System.out.println(" Fail ");
         System.out.println(" ");
     }
+
+    //EB Bill Calculator
+    System.out.println("---EB BILL CALCULATOR---");
+    int unit_consumed=1200;
+    System.out.println("Units Consumed : "+unit_consumed);
+    if(unit_consumed<=100){
+        System.out.println("Free");
+    }
+    else if(unit_consumed<=200){
+        System.out.println("2.25 per Unit , Price : "+(unit_consumed*2.25));
+    }
+    else if(unit_consumed<=400){
+        System.out.println("4.50 per Unit , Price : "+(unit_consumed*4.50));
+    }
+    else if(unit_consumed<=500){
+        System.out.println("6.00 per Unit , Price : "+(unit_consumed*6));
+    }
+    else{
+        System.out.println("8.00 per Unit , Price : "+(unit_consumed*8));
+    }
+    System.out.println(" ");
 
     //if statements
     //Positive,Negative,Zero
@@ -238,6 +301,10 @@ class task2{
         System.out.println("Marks less than 90");
         System.out.println(" ");
     }
+    if (marks==90){
+        System.out.println("Marks equal to 90");
+        System.out.println(" ");
+    }
 
     //salary>50000
     System.out.println("---CHECK SALARY > 50,000---");
@@ -251,6 +318,10 @@ class task2{
         System.out.println("Salary less than 50k");
         System.out.println(" ");
     }
+    if (salary == 50000){
+        System.out.println("Salary Equal to 50k");
+        System.out.println(" ");
+    }
 
     //temperature > 40C
     System.out.println("---CHECK TEMPERATURE > 40C---");
@@ -262,6 +333,10 @@ class task2{
     }
     if(temp<40){
         System.out.println("Temperature less than 40C");
+        System.out.println(" ");
+    }
+    if(temp==40){
+        System.out.println("Temperature Equal to 40C");
         System.out.println(" ");
     }
 
@@ -352,28 +427,26 @@ class task2{
     //Largest of 3 numbers
     
     System.out.println("---LARGEST OF 3 NUMBER---");
-    int num_1=17,num_2=24,num_3=99;
+    int num_1=12,num_2=2,num_3=12;
     System.out.println("A : "+num_1);
     System.out.println("B : "+num_2);
     System.out.println("C : "+num_3);
     System.out.println(" ");
-    if(num_1>num_2 && num_1>num_3){
-        System.out.println("A Biggest");
-        System.out.println(" ");
+    if (num_1==num_2 && num_2==num_3){
+        System.out.println("All Values are same ");
     }
-    else if (num_2>num_1 && num_2>num_3){
-        System.out.println("B Biggest");
+    else if(num_1>=num_2 && num_1>=num_3){
+        System.out.println("The Biggest Value : "+num_1);
         System.out.println(" ");
-    }
-    else if(num_3>num_1 && num_3>num_2){
-        System.out.println("C Biggest");
+     }
+    else if (num_2>=num_1 && num_2>=num_3){
+        System.out.println("The Biggest Value : "+num_2);
         System.out.println(" ");
     }
     else{
-        System.out.println("Values are Same");
+        System.out.println("The Biggest Value : "+num_3);
         System.out.println(" ");
     }
-    
 
     //income-Tax
     System.out.println("---TAX CRITERIA---");
