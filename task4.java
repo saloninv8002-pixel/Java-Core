@@ -30,14 +30,14 @@ public class task4{
         System.out.println("Month (month) : "+date.getMonth());//month
         System.out.println("Month (M) : "+date.getMonthValue());//m
         System.out.println("Month + 3 (yyyy-mm-dd) : "+date.plusMonths(3));//adds n months to current day
-        System.out.println("Month + 2 (yyyy-mm-dd) : "+date.minusMonths(2));//minus n months
+        System.out.println("Month - 2 (yyyy-mm-dd) : "+date.minusMonths(2));//minus n months
         System.out.println();
 
         System.out.println("---YEAR---");
         System.out.println();
         System.out.println("Years (yyyy) : "+date.getYear());//yyyy
         System.out.println("Year + 3 (yyyy-mm-dd) : "+date.plusYears(3));//adds n year to current day
-        System.out.println("Year - 3 (yyyy-mm-dd) : "+date.minusYears(2));//minus n year
+        System.out.println("Year - 2 (yyyy-mm-dd) : "+date.minusYears(2));//minus n year
         System.out.println();
 
         //Java.time.LocalTime
@@ -50,7 +50,7 @@ public class task4{
         System.out.println();
         System.out.println("Hour (HH) : "+time.getHour());
         System.out.println("Hour +3 : "+time.plusHours(3));//Adds 3 hrs to current hr
-        System.out.println("Hour +3 : "+time.minusHours(3));//Sub 3 hrs to current hr
+        System.out.println("Hour -3 : "+time.minusHours(3));//Sub 3 hrs to current hr
         System.out.println();
 
         System.out.println("---MINUTES---");
@@ -64,7 +64,7 @@ public class task4{
         System.out.println();
         System.out.println("Second (SS) : "+time.getSecond());
         System.out.println("Seconds +45 : "+time.plusSeconds(45));//add 45 seconds
-        System.out.println("Seconds +-30 : "+time.minusSeconds(30));//sub 30 sec
+        System.out.println("Seconds -30 : "+time.minusSeconds(30));//sub 30 sec
         System.out.println();
         
         //LocalDateTime
