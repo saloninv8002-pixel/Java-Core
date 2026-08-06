@@ -235,24 +235,6 @@ public class task4{
         System.out.println("Current Week Day : "+date_2.getDayOfWeek());
         DateTimeFormatter display_1 = DateTimeFormatter.ofPattern("dd-MM-yyyy");
         System.out.println("Format (dd-MM-YYYY): "+date_1.format(display_1));
-        System.out.println();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+        System.out.println();        
     }
 }
